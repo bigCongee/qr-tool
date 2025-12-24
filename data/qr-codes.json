@@ -1,0 +1,47 @@
+[
+  {
+    "id": "bbae37d4-e655-4e95-99cd-3906a637a2ca",
+    "name": "测试",
+    "type": "dynamic",
+    "content": "333366",
+    "expiresAt": "2025-12-14T16:00:00.000Z",
+    "colorDark": "rgb(0,0,0)",
+    "colorLight": "rgb(255,255,255)",
+    "size": 560,
+    "logoDataUrl": "",
+    "logoSizePercent": 20,
+    "logoRadius": 12,
+    "createdAt": "2025-12-24T03:20:56.812Z",
+    "updatedAt": "2025-12-24T04:01:21.442Z"
+  },
+  {
+    "id": "0d7bce54-4953-4b4c-b9a2-00d54b1fd942",
+    "name": "11112",
+    "type": "dynamic",
+    "content": "2222222222",
+    "expiresAt": "2025-12-23T16:00:00.000Z",
+    "colorDark": "#0f172a",
+    "colorLight": "#ffffff",
+    "size": 560,
+    "logoDataUrl": "",
+    "logoSizePercent": 18,
+    "logoRadius": 9,
+    "createdAt": "2025-12-24T02:44:40.886Z",
+    "updatedAt": "2025-12-24T03:19:34.710Z"
+  },
+  {
+    "id": "6cc4896c-fc28-4fca-a1dc-ce850a62eafd",
+    "name": "1111",
+    "type": "dynamic",
+    "content": "http://baidu.com",
+    "expiresAt": "2025-12-23T16:00:00.000Z",
+    "colorDark": "#0f172a",
+    "colorLight": "#ffffff",
+    "size": 560,
+    "logoDataUrl": "",
+    "logoSizePercent": 18,
+    "logoRadius": 9,
+    "createdAt": "2025-12-24T02:44:34.480Z",
+    "updatedAt": "2025-12-24T03:19:09.341Z"
+  }
+]

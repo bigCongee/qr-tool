@@ -1,0 +1,135 @@
+:root {
+  --bg: #070c16;
+  --bg-2: #0f1729;
+  --ink: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #22d3ee;
+  --card: rgba(17, 24, 39, 0.9);
+  --border: #1f2937;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: radial-gradient(circle at 10% 10%, rgba(34, 211, 238, 0.08), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(168, 85, 247, 0.08), transparent 30%),
+    radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.1), transparent 28%),
+    linear-gradient(160deg, #050913 0%, #0b1220 35%, #0f1729 100%);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 22px;
+  background: rgba(7, 12, 22, 0.85);
+  backdrop-filter: blur(14px);
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav a {
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background 0.2s ease, color 0.2s ease;
+  color: #cbd5e1;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.page {
+  max-width: 1850px;
+  margin: 0 auto;
+  padding: 18px 18px 32px;
+  width: 100%;
+  min-height: calc(100vh - 64px);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.preview img {
+  max-width: 100%;
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+  background: #0b1220;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+.page-stack {
+  width: 100%;
+}
+
+.frosted-card .ant-card-body {
+  background: transparent;
+}
+
+.column-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: calc(100vh - 150px);
+}
+
+.grow-card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-preview {
+  position: sticky;
+  top: 78px;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
